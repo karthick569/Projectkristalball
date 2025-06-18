@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Test.TC_003_VerifyNoUpdateMissingFieldTest">
+        <methods>
+          <include name="ReportInitialization"/>
+          <include name="Screenshot"/>
+          <include name="setup"/>
+          <include name="reportClose"/>
+          <include name="testdetails"/>
+          <include name="BrowserLaunch"/>
+          <include name="VerifyNoUpdateMissingFieldTest"/>
+          <include name="LaunchAndLoadUrl"/>
+          <include name="BrowserClose"/>
+        </methods>
+      </class> <!-- Test.TC_003_VerifyNoUpdateMissingFieldTest -->
+      <class name="Test.TC_001_VerifyProductSearchTest">
+        <methods>
+          <include name="ReportInitialization"/>
+          <include name="Screenshot"/>
+          <include name="reportClose"/>
+          <include name="testdetails"/>
+          <include name="VerifyProductSearchTest"/>
+          <include name="BrowserLaunch"/>
+          <include name="LaunchAndLoadUrl"/>
+          <include name="setup"/>
+          <include name="BrowserClose"/>
+        </methods>
+      </class> <!-- Test.TC_001_VerifyProductSearchTest -->
+      <class name="Test.TC_002_VerifySuccessfullFeedbackUpdateTest">
+        <methods>
+          <include name="ReportInitialization"/>
+          <include name="Screenshot"/>
+          <include name="VerifySuccessfullFeedbackUpdateTest"/>
+          <include name="setup"/>
+          <include name="reportClose"/>
+          <include name="testdetails"/>
+          <include name="BrowserLaunch"/>
+          <include name="LaunchAndLoadUrl"/>
+          <include name="BrowserClose"/>
+        </methods>
+      </class> <!-- Test.TC_002_VerifySuccessfullFeedbackUpdateTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
